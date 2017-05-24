@@ -1,0 +1,97 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+#logo{
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+	margin-right:10px;
+	font-size:2em;
+	color:#fff;
+	text-transform:uppercase;
+	letter-spacing: -1px;
+	padding-top:9px;
+	font-weight:bold;
+}
+#logo:hover{
+	color:#fff;
+	text-decoration:none;
+}
+
+body{
+	padding-top:5.5%;
+	
+
+}
+.nav_item{
+	margin-left:25px;
+	float:left;
+	margin-top:20px;
+
+}
+
+.center{
+	text-align:center;
+}
+
+h1,h2,h3,h4{
+	line-height:1;
+}
+
+h1{
+	font-size:3em;
+	letter-spacing:-2px;
+	margin-bottom:30px;
+    text-align:center;
+}
+h2{
+	font-size:1.2em;
+	text-align:center;
+	font-weight:normal;
+	margin-bottom:30px;
+	color:#777;
+}
+
+.left{
+	text-align:left;
+	letter-spacing:.5px;
+}
+
+.footer{
+	margin-top:25px;
+	border-top:1px solid #eaeaea;
+	color:#777;
+}
+
+.chef_info{
+	margin-top:10px;
+}
+
+.gravatar{
+	border-radius:10px;
+}
+.well{
+	background-color:#EDEDED;
+}
+
+input,textarea,select, .uneditable-input{
+	width:100%;
+	border:1 px solid #d2d2d2;
+	border-radius:5px;
+	margin-bottom:15px;
+}
+
+input{
+	height: auto !important;
+}
+
+span.picture{
+	input{
+	border:0;
+	}
+}
+.recipe{
+	margin:10px 10px 10px 10px;
+}
